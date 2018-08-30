@@ -1,0 +1,1028 @@
+/* -------------------------------------------------------------------------_____Start___CSS_____----------------------------------------------------------- */
+.mobile-container {
+	display: none;
+}
+/* -----------------------------------------------------------------------_____Start___Reset-Code_____--------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+ul, li {
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oleo Script', cursive;
+    font-weight: 700; 
+}
+/* -----------------------------------------------------------------------_____End___Reset-Code_____--------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------_____Start___main-header-area_____------------------------------------------------------ */
+.main-header-area {
+	background: url(../images/wedding-template-home-.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 35px 0 0 0;
+}
+.header-area {
+	background: url(../images/wedding-template-menu.png);
+	width: 100%;
+	height: 98px;
+	margin: 38px 0 0 0;
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+	border-radius: 20px;
+}
+.main-menu {
+	padding: 32px 8px;
+}
+.main-menu li a {
+	font-size: 20px;
+	padding: 0px 14px;
+    font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+    text-transform: uppercase;
+    color: #851F34;
+}
+.logo-wedding a img {
+	height: 95px;
+	width: 250px;
+}
+.blcok_logo{
+	position: relative;
+}
+.my_logo {
+	position: absolute;
+	left: 443px;
+	bottom: 52px;
+}
+.main-menu li:nth-child(5) {
+	margin-left: 260px;
+}
+
+
+
+
+.header-content-area {
+	text-align: left;
+	padding: 140px 0 150px 0;
+}
+.header-content-area h4 {
+	font-size: 38px;
+	font-family: Robot;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #851F34;
+	padding-bottom: 20px;
+}
+.header-content-area h2 {
+	font-size: 114px;
+	font-family: 'Oleo Script', cursive;
+	color: #851F34;
+	padding-bottom: 30px;
+}
+.home-area-button {
+	background: #851F34;
+	padding: 20px 60px;
+	color: #fff;
+	font-family: 'Oleo Script', cursive;
+	font-size: 38px;
+}
+.home-area-button:hover {
+	color: #f2f2f2;
+}
+
+/* --------------------------------------------------------------------_____Start___main-header-area_____------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------_____Start___main-wedding-couple-area_____-------------------------------------------------- */
+.main-wedding-couple-area {
+	padding: 84px 0;
+}
+.wedding-couple-heading-area.text-center h2 {
+	text-transform: uppercase;
+	font-size: 38px;
+	padding: 0px 0 15px 0;
+}
+.wedding-couple-heading-area.text-center img {
+	width: 221px;
+	margin: 0 30px 0 -30px;
+	height: 37px;
+}
+.wedding-couple-heading-area.text-center p {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	line-height: 33px;
+	font-weight: bold;
+	padding: 40px 0 0 0;
+}
+.weddong-couple-cards-middle-heart-area.text-center i {
+	font-size: 90px;
+	color: #851F34;
+	padding: 180px 0 0 0;
+	text-shadow: 1px 1px 8px #000;
+}
+
+
+
+
+
+
+
+
+
+.the-wedding-couple-cards-area.text-center {
+	padding: 117px 63px;
+	/* box-shadow: -webkit-box-shadow: -1px 5px 18px -6px rgba(0,0,0,1); */
+	-moz-box-shadow: -1px 5px 18px -6px rgba(0,0,0,1);
+	box-shadow: -1px 5px 18px -6px rgba(0,0,0,1);
+	border-radius: 21px;
+}
+.wedding-couple-cards-area {
+	padding: 160px 0;
+}
+.the-wedding-couple-cards-photo-area a img {
+	border-radius: 195px;
+	width: 186px;
+	height: 183px;
+	border: 8px solid #841B2F;
+	margin-top: -191px;
+}
+.the-wedding-couple-cards-area.text-center h4 {
+	color: #9B4956;
+	text-transform: uppercase;
+	font-size: 24px;
+	padding: 20px 0 10px 0;
+}
+.the-wedding-couple-cards-area.text-center h3 {
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: lighter;
+	padding: 0 0 10px 0;
+}
+.wedding-couple-cards-social-icon-area {
+	padding: 20px 0;
+}
+.wedding-couple-cards-social-icon-area a i {
+	font-size: 20px;
+	color: #000;
+	padding: 0 7px;
+	font-weight: bold;
+}
+.wedding-couple-cards-social-icon-area a i:hover {
+	color: #851F34;
+}
+
+
+/* ----------------------------------------------------------------_____End___main-wedding-couple-area_____-------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------_____Start___main-our-love-story-area_____------------------------------------------------- */
+.main-our-love-story-area {
+	padding: 84px 0;
+}
+.our-love-story-heading-area.text-center h2 {
+	text-transform: uppercase;
+}
+.our-love-story-heading-area.text-center img {
+	width: 221px;
+	height: 37px;
+	margin: 9px 30px 55px 25px;
+}
+.our-love-story-paragraph-area.text-center p {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #000;
+	text-shadow: 0px 0px 1px #000;
+	line-height: 30px;
+}
+
+/* ---------------------------------------------------------------_____End___main-our-love-story-area_____------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------_____Start___main-the-wedding-events-area_____----------------------------------------------- */
+.main-the-wedding-events-area {
+	background: url(../images/wedding-template-events-bg.jpg);
+	background-repeat: no-repeat;
+}
+.the-wedding-events-heading-area h2 {
+	text-transform: uppercase;
+}
+.empty-space {
+	padding: 40px 0;
+}
+.the-wedding-events-heading-area img {
+	width: 221px;
+	height: 37px;
+	margin: 9px 30px 55px 25px;
+}
+.the-wedding-events {
+	background: url(../images/wedding-template-single-events-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 60px 30px;
+	box-shadow: -1px 4px 18px 3px rgba(0,0,0,0.26);
+}
+.the-wedding-events-content.text-center h3 {
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+.the-wedding-events-content.text-center i {
+	font-weight: bold;
+	font-size: 24px;
+}
+.the-wedding-events-content.text-center p {
+	padding: 23px 5px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1px #000;
+}
+.empty-space-last {
+	padding: 0 0 165px 0;
+}
+/* -------------------------------------------------------------_____End___main-the-wedding-events-area_____----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------_____Start___main-photo-gallery-area_____-------------------------------------------------- */
+.main-photo-gallery-area {
+	padding: 84px 0;
+}
+.photo-gallery-heading-area.text-center h2 {
+	text-transform: uppercase;
+}
+.photo-gallery-heading-area.text-center img {
+	width: 221px;
+	height: 37px;
+	margin: 9px 30px 55px 25px;
+}
+/* ----------------------------------------------------------------_____End___main-photo-gallery-area_____-------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------_____Start___main-brizes-maid-area_____--------------------------------------------------- */
+.main-brizes-maid-area {
+	padding:84px 0;
+}
+.brizes-maid-heading-area.text-center h2 {
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.brizes-maid-heading-area.text-center img {
+	width: 221px;
+	height: 37px;
+	margin: 9px 30px 55px 25px;
+}
+.brizes-maid.text-center a img {
+	width: 267px;
+	height: 214px;
+	border: 10px solid #fff;
+	border-radius: 8px;
+	box-shadow: -webkit-box-shadow: 0px 4px 20px -8px rgba(0,0,0,0.33);
+	-moz-box-shadow: 0px 4px 20px -8px rgba(0,0,0,0.33);
+	box-shadow: 0px 4px 20px -8px rgba(0,0,0,0.33);
+}
+.brizes-maid.text-center a img:hover {
+	border: 10px solid #841B2F;
+	transition: all ease-in-out;
+}
+.brizes-maid.text-center h4 {
+	text-transform: uppercase;
+	padding: 20px 0 10px;
+	font-size: 24px;
+}
+.brizes-maid-social-icon-area a i {
+	color: #020000;
+	padding: 5px 6px;
+	font-weight: bold;
+}
+
+
+
+
+/* -----------------------------------------------------------------_____End___main-brizes-maid-area_____--------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------_____Start___main-grooms-men-area_____--------------------------------------------------- */
+.main-grooms-men-area {
+	padding:84px 0;
+}
+.grooms-men-heading-area.text-center h2 {
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.grooms-men-heading-area.text-center img {
+	width: 221px;
+	height: 37px;
+	margin: 9px 30px 55px 25px;
+}
+.grooms-men.text-center a img {
+	width: 267px;
+	height: 214px;
+	border: 10px solid #fff;
+	border-radius: 8px;
+	box-shadow: -webkit-box-shadow: 0px 4px 20px -8px rgba(0,0,0,0.33);
+	-moz-box-shadow: 0px 4px 20px -8px rgba(0,0,0,0.33);
+	box-shadow: 0px 4px 20px -8px rgba(0,0,0,0.33);
+}
+.grooms-men.text-center a img:hover {
+	border: 10px solid #841B2F;
+	transition: all ease-in-out;
+}
+.grooms-men.text-center h4 {
+	text-transform: uppercase;
+	padding: 20px 0 10px;
+	font-size: 24px;
+}
+.grooms-men-social-icon-area a i {
+	color: #020000;
+	padding: 5px 6px;
+	font-weight: bold;
+}
+
+
+
+
+/* -----------------------------------------------------------------_____End___main-grooms-men-area_____--------------------------------------------------- */
+
+
+
+
+.word-form-area-cs {
+	background: #841B2F;
+	color: #fff;
+	padding: 50px 20px;
+	text-align: center;
+	border-radius: 82px 0 82px 0px;
+	border: 8px solid #efecec;
+	box-shadow: 0px 0px 7px -1px #333;
+}
+
+
+
+
+/* ---------------------------------------------------------------_____Start___main-you-dont-miss-it-area_____------------------------------------------------- */
+.main-you-dont-miss-it-area {
+	position: relative;
+	background: url(../images/wedding-template-you-dont-miss.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0px;
+	border-radius: 0px 0px 501px 501px;
+	z-index: 1;
+}
+.you-dont-miss-it-area {
+	margin: -80px 0 0 0;
+}
+.dont-miss-area-top-heading {
+	padding: 50px 0 0 0;
+}
+.hours-class {
+	font-size: 42px;
+}
+ .main-you-dont-miss-it-area::after{
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #841b2d;
+	z-index: -1;
+	opacity: 0.5;
+	border-radius: 0px 0px 501px 501px;
+}
+.you-dont-miss-it-heading-area h2 {
+	text-transform: uppercase;
+}
+.you-dont-miss-it-heading-area img {
+	width: 221px;
+	margin: 0 30px 0 -30px;
+	height: 37px;
+}
+.you-dont-miss-it-paragrapgh-area p {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	padding: 35px 0;
+}
+span#days , span#hours, span#mins, span#secs {
+	font-size: 35px;
+	color: #fff;
+}
+.hours-class::after {
+
+	position: relative;
+
+}
+.hours-class::after {
+	background: url(../images/countdown.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 181px;
+	top: -45px;
+	left: 0;
+	content: "";
+	position: absolute;
+}
+
+
+
+/* ---------------------------------------------------------------_____Start___main-you-dont-miss-it-area_____------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------_____Start___main-words-from-friends-area_____----------------------------------------------- */
+.main-words-from-friends-area {
+	padding: 84px 0;
+}
+.words-from-friends-heading-area.text-center h2 {
+	text-transform: uppercase;
+}
+.words-from-friends-heading-area.text-center img {
+	width: 221px;
+	height: 37px;
+	margin: 9px 30px 55px 25px;
+}
+.words-from-friends-paragraph-area.text-center p {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #000;
+	text-shadow: 0px 0px 1px #000;
+	line-height: 30px;
+}
+
+/* -------------------------------------------------------------_____End___main-words-from-friends-area_____----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------_____Start___main-contact-form-area_____-------------------------------------------------- */
+.main-contact-form-area {
+	background: url(../images/wedding-template-contact-form-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 120px 0;
+	text-transform: uppercase;
+	background-attachment: fixed;
+}
+.contact-form {
+	background: url(../images/wedding-template--contact-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 120px 50px 120px;
+}
+.contact-form-heading-area img {
+	width: 221px;
+	height: 37px;
+	margin: 9px 30px 55px 25px;
+}
+.form-check-label {
+	font-family: 'Oleo Script', cursive;
+	font-weight: lighter;
+	font-size: 15px;
+	word-spacing: 4px;
+}
+#wedding-input {
+	border: 2px solid #000;
+}
+#wedding-input:hover {
+	box-shadow: 2px 3px 17px -6px rgba(38,32,38,1);
+}
+#wedding-select {
+	border: 2px solid #000;
+}
+#wedding-select:hover {
+	box-shadow: 2px 3px 17px -6px rgba(38,32,38,1);
+}
+#wedding-text-area {
+	border: 2px solid #000;
+}
+#wedding-text-area:hover {
+	box-shadow: 2px 3px 17px -6px rgba(0,0,0,0.6);
+}
+.btn-send {
+	border: 2px solid #000;
+	color: #000;
+	padding: 4px 24px;
+	border-radius: 10px;
+	font-family: 'Oleo Script', cursive;
+	font-weight: bold;
+}
+.btn-send:hover {
+	color: #000;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------_____End___main-contact-form-area_____-------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------_____Start___main-footer-top-area_____---------------------------------------------------- */
+.main-footer-top-area {
+	background: url(../images/wedding-template-footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 84px 0;
+}
+.footer-top-content-heading h2 {
+	color: #851F34;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+.footer-top-content-heading i {
+	font-size: 90px;
+	color: #851F34;
+}
+
+
+.footer-bottom-content h4 {
+	position: absolute;
+	text-align: center;
+	left: 485px;
+	top: 180px;
+	text-transform: uppercase;
+	color: #851F34;
+}
+.footer-bottom-content img {
+	width: 244px;
+}
+
+/* ------------------------------------------------------------------_____End___main-footer-top-area_____---------------------------------------------------- */
+
+
+.main-footer-area {
+	background: #851F34;
+	color: #fff;
+	padding: 18px 0 0 0;
+	text-transform: uppercase;
+}
+/*  */
+.timeline {
+	width: 900px;
+	height: auto;
+	margin: 50px auto 0;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.timeline li {
+	position: relative;
+	list-style: none;
+}
+.timeline li .item {
+	position: relative;
+	min-height: 60px;
+	background: rgb(100, 223, 12);
+	padding: 0 20px 20px 30px;
+	margin-left: 20px;
+	border-left: 20px;
+	border-left: 1px solid #333333;
+}
+.timeline li:last-child .itemm {
+	border-left: 1px solid transparent;
+}
+.timeline li .item span {
+	position: absolute;
+	top: -8px;
+	left: -20px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background: #262626;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 50%;
+}
+/*  */
+/* -------------------------------------------------------------------------_____End___CSS_____----------------------------------------------------------- */
+
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.mobile-container {
+		display: block;
+	}
+	.header-area {
+		display: none;
+	}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+    .mobile-container {
+		display: block;
+	}
+	.header-area {
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.mobile-container {
+		display: block;
+	}
+	.main-header-area {
+		margin: -57px 0 0 0;
+		background-size: cover;
+	}
+	.header-content-area {
+		text-align: left;
+		padding: 88px 0 150px 0;
+	}
+	.header-area {
+		display: none;
+	}
+
+	.header-content-area h4 {
+		text-align: center;
+		font-size: 30px;
+	}
+	.header-content-area h2 {
+		text-align: center;
+		font-size: 40px;
+	}
+	.home-area-button {
+		margin: 0 0 0 52.5px;
+		font-size: 20px !important;
+		padding: 15px 26px;
+	}
+	.wedding-couple-heading-area.text-center h2 {
+		font-size: 27px;
+	}
+	.wedding-couple-heading-area.text-center img {
+		width: 200px;
+		margin: 0 -32px 0 -32px;
+		height: 37px;
+	}
+	.wedding-couple-heading-area.text-center p {
+		font-size: 14px;
+		font-weight: lighter;
+		word-spacing: 2px;
+	}
+	.main-the-wedding-events-area {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.wedding-couple-cards-area {
+
+	}
+	.the-wedding-couple-cards-area.text-center {
+		padding: 20px 20px 20px 20px;
+		-webkit-box-shadow: 0px 4px 14px -2px rgba(0,0,0,0.64);
+		-moz-box-shadow: 0px 4px 14px -2px rgba(0,0,0,0.64);
+		box-shadow: 0px 1px 6px -1px rgb(138, 103, 103);
+	}
+	.the-wedding-couple-cards-area.text-center h4 {
+		font-size: 20px;
+		padding: 10px 0 5px 0;
+	}
+	.the-wedding-couple-cards-area.text-center h3 {
+		font-size: 30px;
+		padding: 0;
+	}
+	.the-wedding-couple-cards-photo-area a img {
+		border-radius: 142px;
+		width: 165px;
+		height: 157px;
+		border: 5px solid #841B2F;
+		margin-top: -150px;
+	}
+	.the-wedding-events {
+		padding: 30px 10px;
+		width: 94%;
+		border-radius: 22px;
+	}
+	.the-wedding-events-heading-area h2 {
+		color: #fff;
+		text-align: center;
+		font-size: 24px;
+		padding: 36px 0 0 0;
+	}
+	.the-wedding-events-heading-area img {
+		width: 200px;
+		margin: 10px 40px 30px 40px;
+		height: 37px;
+	}
+	.the-wedding-events-content.text-center h3 {
+		font-size: 18px;
+		padding: 0px 0 5px 0;
+	}
+	.the-wedding-events-content.text-center i {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.the-wedding-events-content.text-center span {
+		font-size: 16px;
+		font-weight: lighter;
+	}
+	.the-wedding-events-content.text-center p {
+		font-size: 14px;
+		text-shadow: none;
+		padding: 20px 5px;
+		line-height: 26px;
+	}
+
+	.photo-gallery-heading-area.text-center h2 {
+		
+	}
+
+	.brizes-maid-heading-area.text-center h2 {
+		font-size: 24px;
+		font-weight: lighter;
+	}
+	.brizes-maid-heading-area.text-center img {
+		width: 200px;
+		margin: 10px 40px 30px 40px;
+		height: 37px;
+	}
+	.brizes-maid.text-center h4 {
+		font-size: 20px;
+		font-weight: lighter;
+	}
+	#timeline .timeline-movement .timeline-item .timeline-panel {
+		border: 1px solid #d4d4d4;
+		border-radius: 3px;
+		background-color: #FFFFFF;
+		color: #666;
+		padding: 26px 11px 73px 11px;
+		position: relative;
+		-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+	}
+	.main-you-dont-miss-it-area {
+		border-radius: none;
+		z-index: 0;
+		padding: 130px 0;
+	}
+	.hours-class {
+		font-size: 188px;
+	}
+	.hours-class::after {
+		width: 290px;
+		margin: 0px 15px;
+		height: 242px;
+		top: 80px;
+		left: 0;
+		content: "";
+	}
+	span#days, span#hours, span#mins, span#secs {
+
+	}
+	.words-from-friends-heading-area.text-center h2 {
+		font-size: 24px;
+		font-weight: lighter;
+	}
+	.words-from-friends-heading-area.text-center img {
+		width: 200px;
+		margin: 10px 40px 30px 40px;
+		height: 37px;
+	}
+	.words-from-friends-paragraph-area.text-center p {
+		text-shadow: 0 0 1px #333;
+		line-height: 28px;
+		font-size: 14.5px;
+	}
+	.grooms-men-heading-area.text-center h2 {
+		font-size: 24px;
+		font-weight: lighter;
+	}
+	.grooms-men-heading-area.text-center img {
+		width: 200px;
+		margin: 10px 40px 30px 40px;
+		height: 37px;
+	}
+	.grooms-men.text-center h4 {
+		font-size: 20px;
+		font-weight: lighter;
+	}
+	.you-dont-miss-it-heading-area h2 {
+		font-size: 24px;
+		font-weight: lighter;
+	}
+	.you-dont-miss-it-heading-area img {
+		width: 200px;
+		margin: 10px 40px 30px 40px;
+		height: 37px;
+	}
+
+	.contact-form {
+		padding: 20px 15px 39px 15px;
+	}
+	.contact-form-heading-area h2 {
+		font-size: 24px;
+		padding: 0px 0 0 12px;
+	}
+	.contact-form-heading-area img {
+		width: 200px;
+		margin: 10px 40px 30px 40px;
+		height: 37px;
+	}
+	.contact-form.text-center h5 {
+		font-size: 18px;
+		text-align: left;
+	}
+	.col-md-6.meal-preferance {
+		padding: 12px;
+	}
+	.main-footer-top-area {
+		background-position: bottom;
+		position: relative;
+	}
+	.footer-bottom-content {
+		position: initial;
+		padding: 14px 0 0px 0;
+	}
+	.footer-top-content-heading h2 {
+		font-size: 38px;
+		font-weight: lighter;
+	}
+	.footer-top-content-heading i {
+		font-size: 75px;
+	}
+	.footer-bottom-content img {
+
+	}
+	.footer-bottom-content h4 {
+		left: 81px;
+		top: 166px;
+		text-align: center;
+		font-size: 24px;
+		font-weight: lighter;
+	}
+	.main-footer-area {
+		padding: 15px 0px 20px;
+	}
+	.footer-area p {
+		font-size: 15px;
+		font-weight: lighter;
+	}
+}
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
