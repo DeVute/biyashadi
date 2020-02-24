@@ -623,10 +623,10 @@
                                 Sarah
                             </h4><!-- /h4 -->
                             <div class="brizes-maid-social-icon-area">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/NumanHussainWeb"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/NumanHussainWeb"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/NumanHussainWeb"><i class="fa fa-pinterest"></i></a>
+                                <a href="https://www.facebook.com/NumanHussainWeb"><i class="fa fa-instagram"></i></a>
                             </div><!-- /.brizes-maid-social-icon-area -->
                         </div><!-- /.brizes-maid text-center -->
                     </div><!-- /.col-md-4 -->
@@ -639,7 +639,7 @@
                                 Sarah
                             </h4><!-- /h4 -->
                             <div class="brizes-maid-social-icon-area">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/NumanHussainWeb"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
@@ -767,9 +767,10 @@
                                 eiusmod tempor incididunt ut bore et dolore magna aliqua. Ut enim ad minim veniam, 
                                 quis nostrud exercitation ullamco laboris periam, dolore magnam aliquam quaerat v
                             </p>
-                        </div>
-                        <div class="row dont-miss-area-top-heading">
-                            <div class="col-md-3">
+                        </div>                       
+
+                         <div class="row dont-miss-area-top-heading">
+                            <div class="col-md-3"> 
                                 <div class="hours-class">
                                     <span id="days"></span>
                                 </div>
@@ -781,15 +782,17 @@
                             </div>
                             <div class="col-md-3">    
                                 <div class="hours-class">
-                                    <span id="mins"></span>
+                                    <span id="minutes"></span>
                                 </div>
                             </div>
                             <div class="col-md-3">                                  
                                 <div class="hours-class">
-                                    <span id="secs"></span>
+                                    <span id="seconds"></span>
                                 </div>
                             </div>
+
                         </div>
+
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.you-dont-miss-it-area -->
@@ -992,8 +995,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <p>
-                                Copyright &copy; 2018 Numan & Fatema - Wedding Site Developed By 
-                                <img style="width: 86px; display: inline-block; margin-left: 7px;" src="http://www.devute.com/wp-content/uploads/2018/05/devute-web-logo-min.png" alt="devute">
+                                © 2014-2019 Devute. All Rights Reserved. 
                             </p><!-- /p -->
                         </div><!--/.col-md-12 text-center-->
                     </div><!-- /.row -->
@@ -1074,6 +1076,34 @@
         transitionStyle:"backSlide",
         autoPlay:true
     });
+
+
+
+
+
+     const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+let countDown = new Date('Sep 30, 2020 00:00:00').getTime(),
+    x = setInterval(function() {    
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+      //do something later when date is reached
+      //if (distance < 0) {
+      //  clearInterval(x);
+      //  'IT'S MY BIRTHDAY!;
+      //}
+
+    }, second)
 
 
     </script>
