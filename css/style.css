@@ -465,6 +465,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hours-class {
 	font-size: 42px;
+	color: #ffffff;
 }
  .main-you-dont-miss-it-area::after{
 	position: absolute;
@@ -494,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 span#days , span#hours, span#mins, span#secs {
 	font-size: 35px;
-	color: #fff;
+	color: #ffffff!important;
 }
 .hours-class::after {
 
